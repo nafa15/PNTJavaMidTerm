@@ -8,5 +8,17 @@ public class Palindrome {
           Palindrome. So write java code to check if a given String is Palindrome or not.
          */
 
+        String palindrome = "Radar";
+
+        StringBuilder stringBuilder = new StringBuilder((palindrome));
+
+        String palindromeReversed = stringBuilder.reverse().toString();
+
+        if (palindrome.equalsIgnoreCase(palindromeReversed)){
+            System.out.println("The string is a palindrome");
+        } else {
+            System.out.println("The string is not a palindrome");
+        }
+
     }
 }

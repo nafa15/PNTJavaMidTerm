@@ -1,5 +1,8 @@
 package math.problems;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class FindMissingNumber {
 
     public static void main(String[] args) {
@@ -10,5 +13,21 @@ public class FindMissingNumber {
          */
         int[] array = new int[] {10, 2, 1, 4, 5, 3, 7, 8, 6};
 
-    }
+        int miss = findMissing(array, 9);
+
+        System.out.println(miss);
+
+
+        }
+        static int findMissing(int a[], int n){
+        int i;
+        int total= (n + 1) * (n + 2) / 2;
+
+        for (i=0; i< n; i++){
+            total -= a[i];
+        }
+        return total;
+        }
+
+
 }
