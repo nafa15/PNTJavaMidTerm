@@ -1,32 +1,94 @@
 Please answer the below Data Structure Questions:
 
-why do we need data structure?
-Ans :
+Why do we need data structure?
+Ans : With data structures, we can manage easily large amounts of data like large databases. It makes retrieving and
+locating information easier. We use Array, Hash, set...
 
 What are the various operations that can be performed on different Data Structures?
+Ans : - sorting - deletion - insertion - Creation..
+
 List out the areas in which data structures are applied extensively?
-what is an Array?
-what is the difference between the Array and ArrayList?
+Ans : - operating system -graphics - compiler - numerical analysis..
+
+What is an Array?
+Ans : It's a data structure which consists on a collection and arrangement of elements.(in columns..).
+
+What is the difference between the Array and ArrayList?
+Ans : - Array : Fixed length data structure
+- Arraylist : Variable length collection class. It can store only objects.
+
 what is LinkedList?
+Ans : it is a collection of elements of the same type in which each element is connected to the next using pointers.
+
 How is an Array different from Linked List?
+Ans : Unlike linked list, array elements can be accessed randomly using the array index. Stored into static memory
+location.
+
 what is queue?
-what is stack?
-what is FIFO and LIFO?
-what is the order of complexity?
-what is the best case to search an element from an array?
-what is the worst case to search an element from an array?
-what is tree in data structure?
-what is graph in data structure?
-what is the difference between the HashTable and HashMap?
+Ans : It is an interface which is used to insert elements at the end of the queue and removes from the beginning of the
+ queue. It follows FIFO concept.
+
+What is stack?
+Ans : LIFO data structure which implements the Java list interface. It has two basic operations : push and pop.
+
+What is FIFO and LIFO?
+Ans : They are methods for handling data structures.
+ - FIFO : first in, first out --> used by queue
+- LIFO : last in, first out --> used by stack
+
+What is the order of complexity?
+Ans :
+
+What is the best case to search an element from an array?
+Ans : selection sort
+
+What is the worst case to search an element from an array?
+Ans : key points
+
+What is tree in data structure?
+Ans : It is is a nonlinear data structure unlike arrays and linked list. It has a root value and subtrees that are
+interrelated.
+
+What is graph in data structure?
+Ans : It is a pictorial representation of a set of objects where some pairs of objects are connected by links. It
+ consists of vertices and edge.
+
+What is the difference between the HashTable and HashMap?
+Ans : - HashMap : non synchronized, not thread safe. It allows null key or value.
+- HashTable : synchronized, it doesn't allow any null key or value.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans : - RDBMS : Array / Network data model : graph / Hierarchical data model : Tree.
+
 How HashMap works in java?
+Ans : It's a map used to store pairs of key-value on a hashing principles.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans : It is a run-time exception which is thrown when an array has been accessed with an illegal index.(index< or >size).
+
 What are the different ways of copying an array into another array?
+Ans : -System.arraycopy()
+-Arrays.copyOf()
+-Manually
+-Object.clone
+
 What is difference between an array and a linked list?
+Ans : already respond.
+
 What is DFS and BFS?
+Ans : -BFS(Breadth First Search) : uses Queue data structure for finding the shortest path.
+-DFS(Depth First Search) uses Stack data structure. It goes deep in each branch before moving to explore another branch.
+
 What is Recursion?
+Ans : defining a proplem with itself. Making a function call itself.
+
 What are linear and non linear data Structures?
+Ans : -Linear data structures: Array, Queue, Stack LinkedList, Stack.
+-Non linear data structures: Graphs, Tree.
+
 What is Big-(O)-notation?
+Ans : It's a representation of an algorithm's complexity. It describes how an algorithm performs and scales.
+
 Outlined different kind of sorting algorithm with time complexity?
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.

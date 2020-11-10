@@ -125,53 +125,92 @@ Ans : Compile time -->  time duration in which the programming code is converted
 Run time --> when the program executes.
 
 What is heap?
+Ans : It's the area where the data is executed (Where we create objects). It's created on a virtual machine.
 
 How java manage it's memory?
+Ans :  Java uses an automatic memory management system called a garbage collector. Java memory divides into :
+- JVM memory structure.
+- Working of the garbage collector.
 
 What is the difference between String, StringBuffer and StringBuilder?
+Ans : - String : immutable
+- StringBuffer : mutable, synchronized thread safe.
+-StringBuilder : mutable, faster, non synchronized non thread safe.
 
 What is Singleton class?
+Ans : A class that can have only one object at a time (we make the constructor as private.)
 
 What is Serialization and Deserialization?
+Ans : -Serialization : mechanism of converting the state of an object into a byte stream.
+- Deserialization : reverse of the first one. Byte stream --> create the Java object.
 
-when to use transient variable in java?
+When to use transient variable in java?
+Ans : To avoid Serialization. If an object is declared as transient, then it can't be serialized.
 
 Difference between while and do..while loop?
+Ans : - While loop check condition before iteration of the loop. It is executed only when given condition is true.
+- Do while loop verifies the condition after the execution of the statements inside the loop.
 
 What is Enum?
+Ans : Enum (enumerated type) is a set of  elements, members, or enumerators of the type. We use an enum when we need
+a predefined list of values.
 
 What is Iterator?
+Ans : It is an object used to iterate elements one by one from a list.
 
 Which one will take more memory, an int or Integer?
+Ans : Iterator.
 
 Why is String Immutable in Java?
+Ans : To guarantee that it will always be the same because this hashcode is frequently used.
 
 What is constructor chaining in Java?
+Ans : It is the process of invoking a sequence of constructors upon initialization of a class object. It's  Calling a
+constructor from the another constructor of same class
 
 The difference between Serial and Parallel Garbage Collector?
+Ans : is that a serial collector is a default copying collector which uses only one GC threadfor garbage collection
+while a parallel collector uses multiple GC threads for garbage collection.
 
 What is JIT stands for?
+Ans : Just In Time means that Java Virtual Machine invokes the compiled code of the method directly without interpreting
+it.
 
 Explain Java Heap space and Garbage collection?
+Ans : - Java heap space is where the objects are called.
+- When Heap space is full, garbage is collected to make space for new objects.
 
 Can you guarantee the garbage collection process?
+Ans :
 
 What is the difference between stack and heap in Java?
+Ans : - Heap for dynamic memory allocation, used by all the parts of the application.
+- Stack is used for static memory allocation,  used only by one thread of execution.
 
 What is reflection in java and why is it useful?
+Ans : It allows us to inspect and manipulate classes, interfaces, constructors, methods, and fields at run time.
 
 what is multithreading in java?
+Ans : It is a process of executing two or more threads simultaneously to maximum utilization of CPU.
 
 What is the use of synchronization in Java?
+Ans : It is used to lock an object for any shared resource.
 
 What is Framework?
+Ans : It is a platform for developing software applications.
 
 What are the testing Framework available in java?
+Ans : JUnit
 
 Difference between jUnit and testNG?
+Ans : - TestNG supports parallel testing
+- JUnit does not.
 
 What are the dependencies for this project?
+Ans :
 
 what is dependency injection in java?
+Ans : It is a technique in which an object receives other objects that it depends on
 
 What is static binding and dynamic binding?
+Ans : It is  execution of a program where type of object is known at compile time.
