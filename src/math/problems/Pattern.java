@@ -1,5 +1,8 @@
 package math.problems;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Pattern {
 
     public static void main(String[] args) {
@@ -9,6 +12,16 @@ public class Pattern {
          *
          */
 
+        List<Integer> numbers = List.of(10, 9, 8, 7, 6, 5, 4, 3, 2, 1);
+
+        /*for (int i = 100; i > 0; i--) {
+
+            while (i > 89) {
+                System.out.print(i + ", ");
+                i--;
+
+            }
+*/
 
     }
 }

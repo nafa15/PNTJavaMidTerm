@@ -17,6 +17,8 @@ public class CollectionView {
         map.put(6, "Seattle");
 
         System.out.println(map);
+         // System.out.println(map.keySet());
+        System.out.println(map.values());
 
     }
 

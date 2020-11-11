@@ -4,8 +4,11 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class CsvReader {
 
@@ -41,7 +44,7 @@ public class CsvReader {
         }
         Collections.sort(roster);
         for (Trainee student : roster) {
-            if (student.getNumberOfExercisesSolved() >= 500) {
+           /* if (student.getNumberOfExercisesSolved() >= 500) {
                 System.out.print("You did pretty good-->                    ");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
             } else if (student.getNumberOfExercisesSolved() >= 400 && student.getNumberOfExercisesSolved() < 500) {
@@ -59,9 +62,16 @@ public class CsvReader {
             } else if (student.getNumberOfExercisesSolved() < 100) {
                 System.out.print("You are in a bad shape !-->                           ");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
-            }
+            }*/
+
+          /* ArrayList<Integer> nums = new ArrayList<>();
+           nums.add(student.getNumberOfExercisesSolved());
+
+            System.out.println(nums.size());
+*/
         }
 
     }
+
 
 }

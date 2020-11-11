@@ -22,6 +22,7 @@ public class ConnectToSqlDB {
     public static PreparedStatement ps = null;
     public static ResultSet resultSet = null;
 
+
     public static Properties loadProperties() throws IOException {
         Properties prop = new Properties();
         InputStream ism = new FileInputStream("src/secret.properties");

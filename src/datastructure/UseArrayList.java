@@ -1,5 +1,8 @@
 package datastructure;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class UseArrayList {
 
     public static void main(String[] args) {
@@ -10,6 +13,24 @@ public class UseArrayList {
          *
          */
 
+        ArrayList<String> team = new ArrayList<>();
+
+        team.add("Drogba");
+        team.add("Lampard");
+        team.add("JohnTerry");
+        team.add("Essien");
+        team.add("Hazard");
+
+        team.remove(3);
+
+       System.out.println(team.get(0));
+
+
+        Iterator iterator = team.iterator();
+        while (iterator.hasNext()){
+           System.out.println(iterator.next());
+        }
+        team.forEach(player -> System.out.println(player));
     }
 
 }

@@ -13,8 +13,29 @@ public class PrimeNumber {
          *
          */
 
+        for (int i = 2; i <= 1000000; i++){
+            if (prime(i)){
+                System.out.println(i);
+            }
+        }
 
+        System.out.println();
 
+    }
+
+    public static boolean prime(int num){
+        if (num == 2 || num == 3){
+            return true;
+        }
+        if (num % 2 == 0 || num % 3 == 0) {
+            return false;
+        }
+        for (int i = 3; i < Math.sqrt(num); i +=2){
+            if (num % i == 0 || num % Math.sqrt(num) == 0){
+                return false;
+            }
+        }
+        return true;
     }
 
 }
