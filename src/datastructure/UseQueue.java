@@ -13,28 +13,28 @@ public class UseQueue {
          *
          */
 
-        Queue<String> line = new LinkedList<>();
+        Queue<String> team = new LinkedList<>();
 
-        line.add("Drogba");
-        line.add("Lampard");
-        line.add("JohnTerry");
-        line.add("Essien");
-        line.add("Hazard");
-
-
-        System.out.println(line);
+        team.add("Drogba");
+        team.add("Lampard");
+        team.add("JohnTerry");
+        team.add("Essien");
+        team.add("Hazard");
 
 
-        System.out.println("head: " + line.peek());     // Head
+        System.out.println(team);
 
-        System.out.println("Size: " + line.size());     // Size
 
-        String rem = line.remove();
+        System.out.println("head: " + team.peek());     // Head
+
+        System.out.println("Size: " + team.size());     // Size
+
+        String rem = team.remove();
         System.out.println(rem);                        // Removed one
 
-        System.out.println(line.poll());                // Retrieves and removes the head
+        System.out.println(team.poll());                // Retrieves and removes the head
 
-        Iterator<String> iterator = line.iterator();
+        Iterator<String> iterator = team.iterator();
         while (iterator.hasNext()){
             System.out.println(iterator.next());
         }

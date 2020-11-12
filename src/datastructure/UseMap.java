@@ -32,8 +32,15 @@ public class UseMap {
         team2.add("Iniesta");
         team2.add("Neymar");
 
-        HashMap<String, ArrayList<String>> liga = new HashMap<String, ArrayList<String>>();
-        liga.put("Player: ", team2);
+        ArrayList<Integer> team2Numbers = new ArrayList<>();
+        team2Numbers.add(10);
+        team2Numbers.add(10);
+        team2Numbers.add(6);
+        team2Numbers.add(8);
+        team2Numbers.add(11);
+
+        HashMap<ArrayList<Integer>, ArrayList<String>> liga = new HashMap<>();
+        liga.put(team2Numbers, team2);
 
         Iterator iterator = team2.iterator();
         while (iterator.hasNext()) {
@@ -43,6 +50,8 @@ public class UseMap {
         //  team2.forEach(System.out::println);
 
         System.out.println(liga);
+
+
 
     }
 
