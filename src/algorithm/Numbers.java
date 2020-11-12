@@ -43,6 +43,8 @@ public class Numbers {
 
     }
 
+
+
     public static void storeRandomNumbers(int[] num) {
         Random rand = new Random();
         for (int i = 0; i < num.length; i++) {
